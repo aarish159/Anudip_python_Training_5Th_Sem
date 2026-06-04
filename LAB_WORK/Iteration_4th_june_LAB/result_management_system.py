@@ -5,7 +5,7 @@ failed_subjects = 0
 for i in range(1, 6):
     m = int(input(f"Enter marks of subject {i}: "))
     marks.append(m)
-    if m < 40:   # fail condition per subject
+    if m < 40:   # fail condition per subject             
         failed_subjects += 1
 
 # Total & Percentage
