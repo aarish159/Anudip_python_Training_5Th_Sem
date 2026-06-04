@@ -9,5 +9,4 @@ while True:
         break
     
     total_bill += price
-
 print(f"\nTotal Bill Amount: ₹{total_bill}")
