@@ -1,0 +1,10 @@
+B101,Python Basics,5 
+B102,Java Programming,2 
+B103,Data Science,0 
+B104,DBMS,3 
+B105,Machine Learning,1 
+B106,Operating Systems,4 
+B107,Networking,2 
+B108,Cyber Security,6 
+B109,Cloud Computing,0 
+B110,Web Development,3 
