@@ -12,5 +12,3 @@ def compound_interest(principal, rate, time):
     interest = amount - principal
     #return the calculated interest
     return interest
-
-      
