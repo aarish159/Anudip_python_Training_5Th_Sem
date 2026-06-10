@@ -1,5 +1,5 @@
 #import module numeric calculations
-from numericcalculation import *
+from numericalculation import *
 #----------------------------------
 #main program
 num1 = float(input("Enter the first number : "))

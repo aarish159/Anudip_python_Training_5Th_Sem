@@ -1,87 +1,101 @@
+'''
+Create a Python program that provides a menu to the user to select a 2D figure: Circle, Rectangle, or Square.
+
+After selecting a figure, the user should enter the required input values (like radius, length, width, or side).
+
+Then the program should again show a menu to select an operation:
+
+Area
+Perimeter
+
+After performing the selected operation, display the result.
+
+This process should repeat continuously for the selected figure until the user chooses to go back or exit.
+'''
+
+
 import math
 
-def rectangle_area(length, breadth):
-    return length * breadth
-
-def rectangle_perimeter(length, breadth):
-    return 2 * (length + breadth)
-
-def square_area(side):
-    return side * side
-
-def square_perimeter(side):
-    return 4 * side
-
-def circle_area(radius):
-    return math.pi * radius * radius
-
-def circle_perimeter(radius):
-    return 2 * math.pi * radius
-
 while True:
-    print("\n--- Select a 2D Figure ---")
+    print("\n===== MAIN MENU =====")
     print("1. Circle")
     print("2. Rectangle")
     print("3. Square")
     print("4. Exit")
 
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Select a figure: "))
 
-    if choice == 1:   # Circle
-        r = float(input("Enter radius: "))
+    # EXIT PROGRAM
+    if choice == 4:
+        print("Program Ended.")
+        break
+
+    # CIRCLE
+    if choice == 1:
+        radius = float(input("Enter radius of circle: "))
+
         while True:
             print("\n--- Circle Operations ---")
             print("1. Area")
             print("2. Perimeter")
-            print("3. Exit Circle Menu")
-            op = int(input("Enter your choice: "))
+            print("3. Back")
+
+            op = int(input("Choose operation: "))
+
             if op == 1:
-                print("Area of Circle:", circle_area(r))
+                area = math.pi * radius * radius
+                print("Area of Circle =", area)
+
             elif op == 2:
-                print("Perimeter of Circle:", circle_perimeter(r))
+                perimeter = 2 * math.pi * radius
+                print("Perimeter of Circle =", perimeter)
+
             elif op == 3:
                 break
-            else:
-                print("Invalid choice!")
 
-    elif choice == 2:   # Rectangle
-        l = float(input("Enter length: "))
-        b = float(input("Enter breadth: "))
+    # RECTANGLE
+    elif choice == 2:
+        length = float(input("Enter length: "))
+        width = float(input("Enter width: "))
+
         while True:
             print("\n--- Rectangle Operations ---")
             print("1. Area")
             print("2. Perimeter")
-            print("3. Exit Rectangle Menu")
-            op = int(input("Enter your choice: "))
+            print("3. Back")
+
+            op = int(input("Choose operation: "))
+
             if op == 1:
-                print("Area of Rectangle:", rectangle_area(l, b))
+                print("Area of Rectangle =", length * width)
+
             elif op == 2:
-                print("Perimeter of Rectangle:", rectangle_perimeter(l, b))
+                print("Perimeter of Rectangle =", 2 * (length + width))
+
             elif op == 3:
                 break
-            else:
-                print("Invalid choice!")
 
-    elif choice == 3:   # Square
-        s = float(input("Enter side: "))
+    # SQUARE
+    elif choice == 3:
+        side = float(input("Enter side of square: "))
+
         while True:
             print("\n--- Square Operations ---")
             print("1. Area")
             print("2. Perimeter")
-            print("3. Exit Square Menu")
-            op = int(input("Enter your choice: "))
+            print("3. Back")
+
+            op = int(input("Choose operation: "))
+
             if op == 1:
-                print("Area of Square:", square_area(s))
+                print("Area of Square =", side * side)
+
             elif op == 2:
-                print("Perimeter of Square:", square_perimeter(s))
+                print("Perimeter of Square =", 4 * side)
+
             elif op == 3:
                 break
-            else:
-                print("Invalid choice!")
-
-    elif choice == 4:   # Exit program
-        print("Exiting program... Goodbye!")
-        break
 
     else:
         print("Invalid choice! Please try again.")
+        
