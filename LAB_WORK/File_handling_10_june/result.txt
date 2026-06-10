@@ -1,0 +1,10 @@
+S101,Anuj,85
+S102,Rahul,72 
+S103,Priya,96 
+S104,Neha,68 
+S105,Amit,39 
+S106,Sneha,54 
+S107,Karan,91 
+S108,Pooja,78 
+S109,Rohit,47 
+S110,Anjali,88 
