@@ -1,0 +1,5 @@
+Hello,
+Welcome to file handling practice.
+This file contains multiple lines.
+You can count vowels, characters, and lines.
+Python makes file handling easy and powerful.
