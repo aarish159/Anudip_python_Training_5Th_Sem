@@ -1,0 +1,10 @@
+A1: Booked
+A2: Booked
+A3: Booked
+A4: Available
+B1: Booked
+B2: Available
+B3: Booked
+B4: Available
+C1: Booked
+C2: Available
