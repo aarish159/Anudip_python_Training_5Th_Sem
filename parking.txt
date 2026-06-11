@@ -1,0 +1,10 @@
+Slot 1: Occupied
+Slot 2: Occupied
+Slot 3: Occupied
+Slot 4: Vacant
+Slot 5: Occupied
+Slot 6: Occupied
+Slot 7: Vacant
+Slot 8: Occupied
+Slot 9: Vacant
+Slot 10: Occupied
