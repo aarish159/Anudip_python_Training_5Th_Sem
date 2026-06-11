@@ -1,0 +1,10 @@
+P101,Anuj,Normal 
+P102,Rahul,Critical 
+P103,Priya,Stable 
+P104,Neha,Critical 
+P105,Amit,Stable 
+P106,Sneha,Normal 
+P107,Karan,Critical 
+P108,Pooja,Stable 
+P109,Rohit,Normal 
+P110,Anjali,Stable 

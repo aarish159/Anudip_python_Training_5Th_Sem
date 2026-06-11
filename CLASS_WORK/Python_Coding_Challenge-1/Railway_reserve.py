@@ -42,7 +42,7 @@ def reserve(seats):
 
 # Save reservations
 def save(seats):
-    f = open(r"C:\Users\aarish\OneDrive\Desktop\python Anudip Training\CLASS_WORK\Python_Coding_Challenge-1\reservations.txt", "w")
+    f = open("reservations.txt", "w")
     for seat in seats:
         f.write(f"Seat {seat}: {seats[seat]}\n")
     f.close()
