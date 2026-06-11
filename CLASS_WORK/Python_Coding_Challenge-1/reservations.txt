@@ -1,0 +1,10 @@
+Seat 1: Booked
+Seat 2: Booked
+Seat 3: Booked
+Seat 4: Available
+Seat 5: Booked
+Seat 6: Booked
+Seat 7: Available
+Seat 8: Booked
+Seat 9: Available
+Seat 10: Booked
