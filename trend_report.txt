@@ -1,0 +1,10 @@
+Hashtag Frequency:
+#AI : 3
+#Python : 3
+#MachineLearning : 1
+#DataScience : 2
+#Coding : 1
+
+Top Trending Hashtags: #AI #Python
+Unique Hashtags: {'#DataScience', '#Python', '#MachineLearning', '#AI', '#Coding'}
+Hashtags Used More Than Twice: #AI #Python
