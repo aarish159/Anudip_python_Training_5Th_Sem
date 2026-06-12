@@ -1,0 +1,4 @@
+Python is easy to learn. 
+Python is powerful. 
+Python supports multiple programming paradigms. 
+Programming with Python is enjoyable. 

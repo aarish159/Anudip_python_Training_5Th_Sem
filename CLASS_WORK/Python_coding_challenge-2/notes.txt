@@ -1,0 +1,1 @@
+Python supports file handling. Functions improve code reusability. Dictionaries store data in key-value pairs. 
